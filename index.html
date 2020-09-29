@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="class-room" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register Form</title>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--font awesome link-->
+    <script src="https://use.fontawesome.com/d1fe4d03cc.js"></script>
+</head>
+
+<body id="background-img">
+
+    <section id="register-login" class="">
+        <div class="container">
+            <div class="register-login-content">
+                <div class="avator">
+                    <img src="img/notes.png" alt="" />
+                    <h2>Student Information </h2>
+                </div>
+                <div class="register-login-text">
+                    <form action="#" method="POST">
+                        <div class="register-name">
+                            <label>Full Name </label><br />
+                            <input type="text" name="name" placeholder="Full Name" />
+                        </div>
+                        <div class="register-mail">
+                            <label>Email Address</label><br />
+                            <input type="email" name="email" placeholder="Email Address" />
+                        </div>
+                        <div class="register-password">
+                            <label>Cell</label><br />
+                            <input type="text" name="password" placeholder="Cell Number" />
+                        </div>
+                        <div class="user-name">
+                            <label>Username</label><br />
+                            <input type="text" name="password" placeholder="User name" />
+                        </div>
+                        <div class="age">
+                            <label>Age</label><br />
+                            <input type="text" name="age" placeholder="Age" />
+                        </div>
+                        <div class="gender ">
+                            <label>Gender</label><br />
+                            <input type="radio" name="gender" id="male" /> <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" /><label for="female">Female</label>
+                        </div>
+                        <div class="shift">
+                            <label>Shift</label><br />
+                            <select name="" id="">
+                                <option value="">--Select--</option>
+                                <option value="">Morning</option>
+                                <option value="">Evening</option>
+                            </select>
+                        </div>
+                        <div class="location">
+                            <label>Location</label><br />
+                            <select name="" id="">
+                                <option value="">--Select--</option>
+                                <option value="">Dhaka</option>
+                                <option value="">Chittagong</option>
+                                <option value="">Barisal</option>
+                                <option value="">Khulna</option>
+                                <option value="">Sylhet</option>
+                                <option value="">Rajshahi</option>
+                                <option value="">Rongpur</option>
+                            </select>
+                        </div>
+                        <div class="photo">
+                            <label>Photo</label><br />
+                            <input type="file" name="file" placeholder="Photo" />
+                        </div>
+
+                        <div class="check-box-div">
+                            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox" />
+                            <label for="checkbox" class="label">I Agree to Terms & Conditions!</label>
+                        </div>
+                        <div class="login-btn">
+                            <input type="submit" name="submit" value="Add New Student" />
+                        </div>
+                    </form>
+                    <div class="already-account">
+                        <a href="table.html "> Students Data</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
