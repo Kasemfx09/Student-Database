@@ -52,14 +52,34 @@ input[type="submit"] {
     width: 30px !important;
 }
 
-.wrap-table table tbody tr td:last-child {
-    width: 160px;
+.wrap-table table tbody tr td ul {
+    margin-bottom: 0;
 }
 
 .wrap-table table tbody tr td ul li {
     list-style-type: none;
+    padding: 0 0 0 0;
+    margin-left: 0;
 }
 
-.wrap-table table tbody tr td ul li a {
-    display: inline-block;
+td ul li .btn:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+td ul li:nth-child(1) .btn {
+    padding: 6px 21px;
+    o
+}
+
+td ul li:nth-child(2) .btn {
+    padding: 6px 23px;
+}
+
+td ul li:nth-child(3) .btn {
+    padding: 6px 17px;
+}
+
+td ul li:nth-child(4) .btn {
+    padding: 6px 17px;
 }
